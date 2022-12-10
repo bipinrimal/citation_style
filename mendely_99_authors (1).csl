@@ -107,7 +107,6 @@
       <if match="any" variable="PMID">
         <text variable="PMID" prefix=". PMID: " suffix="."/>
       </if>
-      <else/>
     </choose>
   </macro>
   <macro name="PubmedCentral">
